@@ -4,14 +4,14 @@ const tractorSchema = new Schema({
   question: {
     type: String,
     required: true
-},
+},  
 image: {
     type: String,
 },  
 options: [{
     text: String,
     image: String,
-    code: String 
+    code: String      
 }],
 correctAnswer: {
     text: String,
